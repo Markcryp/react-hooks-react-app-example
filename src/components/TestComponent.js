@@ -3,8 +3,8 @@ import React from "react";
 // no need to modify anything in here. The final test is looking for the returned JSX from this component
 function TestComponent() {
   return (
-    <div className="video">
-      <iframe
+    <div title="test-component">
+       <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/5TbUxGZtwGI"
@@ -13,6 +13,7 @@ function TestComponent() {
         title="time video"
         allowFullScreen
       ></iframe>
+    
     </div>
   );
 }
